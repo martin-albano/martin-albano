@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: inherit;
+  list-style: none;
+  font-size: 14px;
+}
+
+
+/*-----------------------------------------------------------PAGINA (INICIO)--------------------------------------------------------*/
+
+/*------------HEADER----------*/
+
+
+.header-header {
+  height: 92px;
+  width: 100%;
+  background-color: #000;
+}
+
+.envios-a-todo-el-pais {
+  width: 100%;
+  height: 18px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 11.5px;
+}
+
+
+.navbar {
+  display:flex;
+  background-color: #242526;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  height: 75px;
+}
+
+
+.nav-link{
+  position: relative;
+  color: #fff;
+}
+
+.menu-productos{
+  color:#fff;
+
+}
+
+.menu-productos:hover {
+  border-bottom: 1px solid #fff;
+}
+
+
+.formBuscar {
+  display: flex;
+}
+
+.inputBuscar {
+  color: #fff;
+  text-align: start;
+  width: 250px;
+  height: 20px;
+  border:none;
+  border-bottom: 1px solid #fff;
+  background-color: #242526;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.tittle-container {
+  color: #fff;
+  text-align: center;
+  font-size:20px;
+  background-color: #000;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.shop-now {
+  color: #000;
+  float: right;
+  padding: 6px;
+  border: 1px solid #000;
+}
+
+.shop-now:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color:#fff;
+  transition: 0.4s;
+
+}
+
+
+
+
+/*------------IMG DE FONDO (INICIO)----------*/
+.mainInicio {
+  background-color: #242526;
+}
+
+
+
+.grid-Container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 8em 8em 8em 8em;
+  grid-column-gap: 70px;
+  grid-row-gap: 45px;
+  justify-content: center;
+}
+
+.grid-Item {
+  height: 150px;
+  width: 200px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #000;
+  color: #272727;
+}
+
+.grid-Item:hover {
+  transform: scale(1.3, 1.3);
+  transition: 0.7s;
+}
+
+.item1:hover {
+  text-align: center;
+}
+
+.item1 {
+  background-image: url(imagenes/mates/mate-negro-nuevo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item2 {
+  background-image: url(imagenes/mates/mateverde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item3 {
+  background-image: url(imagenes/latas/latasazules.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url(imagenes/latas/latascueromaron1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item5 {
+  background-image: url(imagenes/latas/latascueronatural.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item6 {
+  background-image: url(imagenes/latas/latasverdes.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item7 {
+  background-image: url(imagenes/latas/latasturqueza.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item8 {
+  background-image: url(imagenes/latas/latasnaranja.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item9 {
+  background-image: url(imagenes/bolsogesell.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*------------PIE DE PAGINA (INICIO)----------*/
+#footer {
+  background-color: #000;
+  height: 117px;
+  width: 100%;
+}
+
+
+/*------------COPYRIGHT P.DE PAG (INICIO)----------*/
+.copyright {
+  color: #fff;
+  text-align: center;
+  padding : 5px;
+  font-size: 10px;
+  background-color: #000;
+  border:1px solid #000;
+}
+
+.menuFooter {
+  background-color: #000;
+  padding: 20px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.footer-menu {
+  color:#fff;
+  text-decoration: none;
+}
+
+.footer-menu:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.h5Footer {
+  color:#fff;
+}
+
+
+/*-----------------------------------------------------------PAGINA (CONTACTO)--------------------------------------------------------*/
+
+/*------------ FONDO (CONTACTO)----------*/
+.bodyContacto {
+  background-color: #fff;
+}
+
+#mainContacto {
+  background-color: #fff;
+}
+
+/*------------ TITULO PRINCIPAL (CONTACTO)----------*/
+.h1Contacto {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*------------ FORM (CONTACTO)----------*/
+.formContacto {
+  padding-top: 20px;
+  color:#fff;
+  background-color: #272727;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------ TAMAÑO DE INPUTS (CONTACTO)----------*/
+.llenarForm {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 10px;
+}
+
+.consultas {
+  color: #000;
+}
+
+/*------------ BORDE DE TEXTO (CONTACTO)----------*/
+.msjOpcional {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*------------BOTONES RESET Y SUBMIT (CONTACTO)----------*/
+.resetSend {
+  float: right;
+  color: #000;
+}
+
+
+
+/*-----------------------------------------------------------PAGINA (PRODUCTOS)--------------------------------------------------------*/
+
+/*------------ FONDO (PRODUCTOS)----------*/
+
+#mainProducto {
+  background-color:#fff;
+}
+
+.bodyProductos {
+  background-color:#fff;
+}
+
+/*------------ TITULO PRINCIPAL (PRODUCTOS)----------*/
+.h1Productos {
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+/*------------ TITULO DE LOS PRODUCTOS (PRODUCTOS)----------*/
+.h2Productos {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: underline;
+  margin-left: 40px;
+}
+
+/*------------ IMAGEN DE PRODUCTO (PRODUCTOS)----------*/
+.imagenBolso {
+  display: block;
+  margin: auto;
+}
+
+.imagenLatas {
+  display: block;
+  margin: auto;
+  height: 25em;
+  width: 315px;
+}
+
+.tablaProductos tr th {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.tablaProductos tr td ul li {
+  border-right: 1px solid #000;
+  padding-right: 20px;
+}
+
+.tablaProductos tr td ol li {
+  padding-right: 20px;
+}
+
+/*------------ TABLA CON CARAC. DEL PRODUCTO (PRODUCTOS)----------*/
+.tablaProductos {
+  margin: auto;
+  border-color: #000;
+}
+
+/*------------ TITULO VIDEO H4 (PRODUCTOS)----------*/
+.h4Video {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/*------------ VIDEO (PRODUCTOS)----------*/
+.videoMate {
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

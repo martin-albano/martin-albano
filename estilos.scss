@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: inherit;
+    list-style: none;
+    font-size: 14px;
+}
+
+/*-----------------------------------------------------------PAGINA (INICIO)--------------------------------------------------------*/
+
+/*------------HEADER----------*/
+
+
+.header-header {
+    height: 100px;
+    width: 100%;
+}
+
+.envios-a-todo-el-pais {
+    width: 100%;
+    height: 18px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 11.5px;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.navbar-brand {
+    padding-left: 25px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-nav me-auto mb-2 mb-lg-0 {
+    position:relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+
+}
+
+
+
+
+.nav-item-account {
+    display: flex;
+    border-left: 1px solid #000;
+}
+
+.header-redes {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-redes {
+    text-decoration: none;
+    color: inherit;
+    color: #000;
+}
+
+.nav-redes:hover {
+    color: #000;
+}
+
+.formBuscar {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.inputBuscar {
+    color: #000;
+    text-align: start;
+    width: 450px;
+    padding: 6px;
+    height: 44px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputBuscar:hover {
+    background-color: #e2e2e2;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+
+/*------------IMG DE FONDO (INICIO)----------*/
+.mainInicio {
+    background-color: #fff;
+}
+
+/*------------TITULO PRINCIPAL H1 (INICIO)----------*/
+#tpal {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    margin-left: 20px;
+}
+
+
+.grid-Container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 8em 8em 8em 8em;
+    grid-column-gap: 70px;
+    grid-row-gap: 45px;
+    justify-content: center;
+}
+
+.grid-Item {
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #000;
+    color: #272727;
+}
+
+.grid-Item:hover {
+    transform: scale(1.5, 1.5);
+    transition: 1s;
+}
+
+.item1:hover {
+    text-align: center;
+}
+
+.item1 {
+    background-image: url(imagenes/mates/mate-blanco.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url(imagenes/mates/mateverde.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url(imagenes/latas/latasazules.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item4 {
+    background-image: url(imagenes/latas/latascueromaron1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item5 {
+    background-image: url(imagenes/latas/latascueronatural.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item6 {
+    background-image: url(imagenes/latas/latasverdes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item7 {
+    background-image: url(imagenes/latas/latasturqueza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item8 {
+    background-image: url(imagenes/latas/latasnaranja.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item9 {
+    background-image: url(imagenes/bolsogesell.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*------------PIE DE PAGINA (INICIO)----------*/
+#footer {
+    background-color: #000;
+    height: 117px;
+    width: 100%;
+}
+
+.footerListaMenu {
+    color: wheat;
+}
+
+.footerListaRedes {
+    color: wheat;
+}
+
+/*------------COPYRIGHT P.DE PAG (INICIO)----------*/
+.copyright {
+    color: wheat;
+    text-align: center;
+}
+
+
+
+/*-----------------------------------------------------------PAGINA (CONTACTO)--------------------------------------------------------*/
+
+/*------------ FONDO (CONTACTO)----------*/
+.bodyContacto {
+    background-color: #fff;
+}
+
+#mainContacto {
+    background-image: linear-gradient(to bottom, wheat, #fff);
+}
+
+/*------------ TITULO PRINCIPAL (CONTACTO)----------*/
+.h1Contacto {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*------------ FORM (CONTACTO)----------*/
+.formContacto {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------ TAMAÑO DE INPUTS (CONTACTO)----------*/
+.llenarForm {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+}
+
+/*------------ BORDE DE TEXTO (CONTACTO)----------*/
+.msjOpcional {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/*------------BOTONES RESET Y SUBMIT (CONTACTO)----------*/
+.resetSend {
+    float: right;
+}
+
+
+
+/*-----------------------------------------------------------PAGINA (PRODUCTOS)--------------------------------------------------------*/
+
+/*------------ FONDO (PRODUCTOS)----------*/
+
+#mainProducto {
+    background-image: linear-gradient(to bottom, wheat, #fff);
+}
+
+.bodyProductos {
+    background-image: linear-gradient(to bottom, wheat, #fff);
+}
+
+/*------------ TITULO PRINCIPAL (PRODUCTOS)----------*/
+.h1Productos {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+/*------------ TITULO DE LOS PRODUCTOS (PRODUCTOS)----------*/
+.h2Productos {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+/*------------ IMAGEN DE PRODUCTO (PRODUCTOS)----------*/
+.imagenBolso {
+    display: block;
+    margin: auto;
+}
+
+.imagenLatas {
+    display: block;
+    margin: auto;
+    height: 25em;
+    width: 315px;
+}
+
+/*------------ TABLA CON CARAC. DEL PRODUCTO (PRODUCTOS)----------*/
+.tablaProductos {
+    margin: auto;
+    border-color: #000;
+}
+
+/*------------ TITULO VIDEO H4 (PRODUCTOS)----------*/
+.h4Video {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/*------------ VIDEO (PRODUCTOS)----------*/
+.videoMate {
+    text-align: center;
+}
